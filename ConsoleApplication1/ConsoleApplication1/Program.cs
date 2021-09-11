@@ -6,25 +6,35 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Program
-    {
-        public static bool Palindrom(string s)
+        public class Program
         {
-            for (int i = 1, j = s.Length - 1; i < j; i++, j--)
-                if (s[i] != s[j])
-                    return false;
-            return true;
+            static void Main(string[] args)
+            {
+                Console.Write("Введите число: ");
+                int number = int.Parse(Console.ReadLine());
+                int remineder, sum = 0;
+                int temp = number;
+                while (number > 0)
+                {
+                    //Get the remainder by dividing the number with 10  
+                    remineder = number % 10;
+                    //multiply the sum with 10 and then add the remainder
+                    sum = (sum * 10) + remineder;
+                    //Get the quotient by dividing the number with 10 
+                    number = number / 10;
+                }
+                if (temp == sum)
+                {
+                    Console.WriteLine($"Число {temp} это Палиндром.");
+                }
+                else
+                {
+                    Console.WriteLine($"Число {temp} это не Палиндром");
+                }
+                Console.ReadKey();
+            }
         }
-
-        static void Main()
-        {
-            string s;
-            Console.Write("Введите строку: ");
-            s = Console.ReadLine();
-            if (Palindrom(s))
-                Console.WriteLine("Эта строка - не Палиндром");
-            else Console.WriteLine("Эта строка - Палиндром");
-            Console.ReadLine();
-        }
-    }
 }
+
+
+
