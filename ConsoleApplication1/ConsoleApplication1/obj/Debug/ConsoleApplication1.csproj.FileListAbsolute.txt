@@ -4,3 +4,9 @@ c:\users\2389-20\documents\visual studio 2015\Projects\ConsoleApplication1\Conso
 c:\users\2389-20\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
 c:\users\2389-20\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 c:\users\2389-20\documents\visual studio 2015\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\2389-20\Source\Repos\KoffeMeow\C-Sharp\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\2389-20\Source\Repos\KoffeMeow\C-Sharp\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\2389-20\Source\Repos\KoffeMeow\C-Sharp\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\2389-20\Source\Repos\KoffeMeow\C-Sharp\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\2389-20\Source\Repos\KoffeMeow\C-Sharp\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\2389-20\Source\Repos\KoffeMeow\C-Sharp\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
