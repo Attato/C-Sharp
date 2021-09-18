@@ -7,18 +7,20 @@ namespace ConsoleApplication2
 {
     public class Calc
     {
+        delegate int Operaion(int a, int b);
         public int Calculate(string expression)
         {
-            int first = 0;
-            int second = 0;
+            Operaion operation = null;
+            int ?first = 0;
+            int ?second = 0;
             for (var i = 0; i < expression.Length; i++)
             {
                 var ch = expression[i];
 
                 switch (ch)
                 {
-                    case '-' throw null;
-                    case '+' throw null;
+                    case '-': operation = Add; break;
+                    case '+': operation = Sub; break;
                     default:
                         {
                             if (!char.IsDigit(ch))
@@ -37,17 +39,27 @@ namespace ConsoleApplication2
                             break;                         
                         } 
                 }
+                if(operation != null &&
+                    first.HasValue &&
+                    second.HasValue)
+                   
+                {
+                    first = operation(first.Value, second.Value);
+                    operation = null;
+                    second = null;
+                }
             }
+            return first.Value;
         }
 
         public int Add (int a, int b)
         {
-
+            return a + b;
         }
 
         public int Sub(int a, int b)
         {
-
+            return a - b;
         }
     }
 }
