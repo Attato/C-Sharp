@@ -21,39 +21,47 @@ namespace ConsoleApplication2
 
                 switch (ch)
                 {
+                    case '*':
+                        {
+                            i++;
+                            var tmp = Parse(ref i, expression);
+                            if (operation != null)
+                            {
+                                second = tmp * second.Value;
+                            }
+                            else
+                            {
+                                first = tmp * first.Value;
+                            }
+                        }
+                        break;
                     case '-': operation = Sub; break;
-                    case '+': operation = Add; break;
-                    
+                    case '+':
+                        {         
+                            var inner = operation;
+                            var firstInner = first;
+                            int? secondInner = Parse(ref i, expression);
+                            operation = (int? a) =>
+                            {
+                                secondInner = a == null ? secondInner : a;
+                                return opperation != null
+                                ? operation(firstInner.Value + secondInner.Value)
+                                : firstInner.Value + secondInner.Value;
+                            };
+                        }
+                        break;
                     default:
                         {
-                            if (!char.IsDigit(ch))
-                            {
-                                throw new Exception("123");
-                            }
-
-                            var str = ch + "";
-
-                            while (i + 1 < expression.Length && char.IsDigit(expression[i + 1]))
-                            {
-                                i++;
-                                str += expression[i];
-                            }
-
-                            var tmp = int.Parse(str);
-
-                            if (first.HasValue)
-                            {
-                                second = tmp;
-                                break;
-                            }
-
+                            var tmp = Parse(ref i, expression);
                             first = tmp;
-                            break;
+                            break;   
                         }
                 }
-                if (operation != null &&
-                    first.HasValue &&
-                    second.HasValue)
+            }
+
+            if (operation != null &&
+                first.HasValue &&
+                second.HasValue)
 
                 {
                     first = operation(first.Value, second.Value);
