@@ -8,13 +8,11 @@ namespace ConsoleApplication2
 {
     public class Calc
     {
-        delegate int Operaion(int a, int b);
+        delegate int Operaion(int? a);
         public int Calculate(string expression)
         {
             Operaion operation = null;
-            int? first = null;
-            int? second = null;
-
+            int? first = null;       
             for (var i = 0; i < expression.Length; i++)
             {
                 var ch = expression[i];
@@ -35,7 +33,21 @@ namespace ConsoleApplication2
                             }
                         }
                         break;
-                    case '-': operation = Sub; break;
+                    case '-': 
+                        {
+                            var inner = operation;
+                            var s = first;
+                            var tmp = Parse(ref i, expression);
+                            operation = (int? a) =>
+                            {
+                                var s1 = operation != null 
+                                ? operation(a)
+                                :s.Value;
+                            return Add(s1, tmp);
+                            };
+                        }
+                    break;
+
                     case '+':
                         {         
                             var inner = operation;
@@ -60,15 +72,12 @@ namespace ConsoleApplication2
             }
 
             if (operation != null &&
-                first.HasValue &&
-                second.HasValue)
-
+                first.HasValue)
                 {
-                    first = operation(first.Value, second.Value);
+                    first = operation(null);
                     operation = null;
-                    second = null;
                 }
-            }
+
             return first.Value;
         }
 
@@ -82,4 +91,4 @@ namespace ConsoleApplication2
             return a - b;
         }
     }
-} 
+}
