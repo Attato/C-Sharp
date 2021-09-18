@@ -28,7 +28,15 @@ namespace ConsoleApplication2
                                 throw new Exception("123");
                             }
 
-                            var tmp = int.Parse(ch + "");
+                            var str = ch + "";
+
+                            while(i + 1 < expression.Length && char.IsDigit(expression[i + 1]))
+                            {
+                                i++;
+                                str += expression[i];
+                            }
+
+                            var tmp = int.Parse(str);
 
                             if (i > 0)
                             {
