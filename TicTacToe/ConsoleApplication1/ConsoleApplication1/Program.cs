@@ -1,22 +1,20 @@
 ﻿using System;
 using System.Threading;
-
+using Cross.Common;
 
 namespace tic_tac_toe
 {
     class Program {
-        
         //Создание массива 0-9, где 0 не используется
-
         static char[] arr = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
-        static int player = 1;
-        static int choice; //Позиция выбора
 
-        // Определяет победителя (1 = кто-то выйграл; -1 = ничья; 0 = матч в процессе)
-        static int flag = 0;
-
+        static Choice choice = new Choice(); //Позиция выбора
+        static Player player = new Player();
+        static Flag flag = new Flag();
+ 
         static void Main(string[] args)
         {
+
             do
             {
                 Console.Clear();// Очистка экрана при каждом запуске массива 
@@ -24,7 +22,7 @@ namespace tic_tac_toe
                 Console.WriteLine("Игрок 1: X \tИгрок 2: O");
                 Console.WriteLine("\n");
 
-                if (player % 2 == 0)//Проверка хода игрока 
+                if (player.GetPlayer() % 2 == 0)//Проверка хода игрока 
                 {
                     Console.WriteLine("Ход игрока 2");
                 }
@@ -36,38 +34,38 @@ namespace tic_tac_toe
 
                 Console.WriteLine("\n");
                 Board();
-                choice = int.Parse(Console.ReadLine());//Выбор пользователей
+                choice.SetChoice(int.Parse(Console.ReadLine()));//Выбор пользователей
 
                 // Проверка того, что позиция, которую хочет выбрать пользователь, отмечена (X или O) или нет
 
-                if (arr[choice] != 'X' && arr[choice] != 'O')
+                if (arr[choice.GetChoice()] != 'X' && arr[choice.GetChoice()] != 'O')
                 {
-                    if (player % 2 == 0) //Если черёд хода даётся игроку 2, иначе игроку 1
+                    if (player.GetPlayer() % 2 == 0) //Если черёд хода даётся игроку 2, иначе игроку 1
                     {
-                        arr[choice] = 'O';
-                        player++;
+                        arr[choice.GetChoice()] = 'O';
+                        player.SetPlayer(player.GetPlayer()+1);
                     }
                     else
                     {
-                        arr[choice] = 'X';
-                        player++;
+                        arr[choice.GetChoice()] = 'X';
+                        player.SetPlayer(player.GetPlayer() + 1);
                     }
                 }
                 else //Если есть какая-то возможность, в которой пользователь хочет запустить, и она уже отмечена, то покажите сообщение и снова загрузите доску 
                 {
-                    Console.WriteLine("\nК сожалению строка {0} уже занята числом {1}", choice, arr[choice]);
+                    Console.WriteLine("\nК сожалению строка {0} уже занята числом {1}", choice.GetChoice(), arr[choice.GetChoice()]);
                     Console.WriteLine("\nПодождите пару секунд, идёт возвращение к шагу...");
-                    Thread.Sleep(10000);
+                    Thread.Sleep(4000);
                 }
-                flag = CheckWin();// Вызов проверки на  выигрыш  
-            } while (flag != 1 && flag != -1);// Игра продолжается до тех пор, пока один из игроков не выйграет
+                flag.SetFlag( CheckWin());// Вызов проверки на  выигрыш  
+            } while (flag.GetFlag() != 1 && flag.GetFlag() != -1);// Игра продолжается до тех пор, пока один из игроков не выйграет
 
             Console.Clear(); 
             Board(); 
 
-            if (flag == 1)// Значение 1 присвается последнему походившему игроку
+            if (flag.GetFlag() == 1)// Значение 1 присвается последнему походившему игроку
             {
-                Console.WriteLine("Игрок {0} победил", (player % 2) + 1);
+                Console.WriteLine("Игрок {0} победил", (player.GetPlayer() % 2) + 1);
             }
 
             else
