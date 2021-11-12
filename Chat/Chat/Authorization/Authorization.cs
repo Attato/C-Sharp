@@ -19,12 +19,11 @@ namespace Chat
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            textBoxName.Text = CurrentUser.name;
         }
 
         private void textBoxName_TextChanged(object sender, EventArgs e)
         {
-            
+            User.Name = textBoxName.Text;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -41,17 +40,14 @@ namespace Chat
         {
              Chat form2 = new Chat();
              form2.Show();
-             this.Hide();
-             name.name = textBoxName.Text;
-             // MessageBox.Show(name.name);
-             //State.CurrentUser = new Common.User
-             {
+             Hide();
+            //State.CurrentUser = new Common.User
+            {
                 // Id = Guild.NewGuild(),
                 //  Name = $"{textBoxName.Text ?? "<login>"}"
              };
-            loginButton.Enabled = true;
 
-            name.name = textBoxName.Text;
+            loginButton.Enabled = true;
             textBoxName.ReadOnly = true;
 
             try

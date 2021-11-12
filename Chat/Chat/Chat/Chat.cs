@@ -5,27 +5,25 @@ namespace Chat
 {
     public partial class Chat : Form
     {
-        public User name = new User();
         public User CurrentUser = new User();
         public User UserContext = new User();
         public User State = new User();
 
-        bool alive = false; // будет ли работать поток для приема
+        bool alive = false;                 // будет ли работать поток для приема
         //UdpClient client;
-        const int LOCALPORT = 8001; // порт для приема сообщений
-        const int REMOTEPORT = 8001; // порт для отправки сообщений
+        const int LOCALPORT = 8001;         // порт для приема сообщений
+        const int REMOTEPORT = 8001;        // порт для отправки сообщений
         const int TTL = 20;
-        const string HOST = "235.5.5.1"; // хост для групповой рассылки
-        //IPAddress groupAddress; // адрес для групповой рассылки
+        const string HOST = "235.5.5.1";    // хост для групповой рассылки
+        //IPAddress groupAddress;           // адрес для групповой рассылки
         
         public Chat()
         {
             InitializeComponent();
         
-            SendButton.Enabled = false; // кнопка отправки
-            ChatTextBox.ReadOnly = true; // поле для сообщений
-            label2.Text = name.name;
-
+            SendButton.Enabled = false;     // кнопка отправки
+            ChatTextBox.ReadOnly = true;    // поле для сообщений
+           
             //  groupAddress = IPAddress.Parse(HOST);
         }
         // метод приема сообщений
@@ -44,7 +42,7 @@ namespace Chat
                     Invoke(new MethodInvoker(() =>
                     {
                         string time = DateTime.Now.ToShortTimeString();
-                    //    ChatTextBox.Text = time + " " + message + "\r\n" + ChatTextBox.Text;
+                      //  ChatTextBox.Text = time + " " + message + "\r\n" + ChatTextBox.Text;
                     }));
                 }
             }
@@ -59,12 +57,12 @@ namespace Chat
                 MessageBox.Show(ex.Message);
             }
         }
-        // обработчик нажатия кнопки sendButton
+                                            // обработчик нажатия кнопки sendButton
         private void SendButton_Click(object sender, EventArgs e)
         {
             try
             {
-                string message = String.Format("{0}: {1}", name, MessageTextBox.Text);
+               // string message = String.Format("{0}: {1}", name, MessageTextBox.Text);
               //  byte[] data = Encoding.Unicode.GetBytes(message);
               //  client.Send(data, data.Length, HOST, REMOTEPORT);
                 MessageTextBox.Clear();
@@ -78,10 +76,10 @@ namespace Chat
         {
             ExitChat();
         }
-        // выход из чата
+                                            // выход из чата
         private void ExitChat()
         {
-            string message = name + " покидает чат";
+          //  string message = name + " покидает чат";
           //  byte[] data = Encoding.Unicode.GetBytes(message);
           //  client.Send(data, data.Length, HOST, REMOTEPORT);
           //  client.DropMulticastGroup(groupAddress);
@@ -92,7 +90,7 @@ namespace Chat
         //    loginButton.Enabled = true;
             SendButton.Enabled = false;
         }
-        // обработчик события закрытия формы
+                                            // обработчик события закрытия формы
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (alive)
@@ -102,7 +100,8 @@ namespace Chat
 
         private void Chat_Load(object sender, EventArgs e)
         {
-          
+            label2.Text = User.Name;
+            
         }
 
         private void fontDialog1_Apply(object sender, EventArgs e)
@@ -120,12 +119,19 @@ namespace Chat
             Authorization form1 = new Authorization();
             form1.Show();
             this.Hide();
-           // MessageBox.Show();
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void MessageTextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (MessageTextBox.Text != "")
+            {
+                SendButton.Enabled = true;
+            }
         }
     }
 }

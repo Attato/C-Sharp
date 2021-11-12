@@ -31,10 +31,9 @@
             this.ChatTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.SendButton = new System.Windows.Forms.Button();
-            this.fontDialog1 = new System.Windows.Forms.FontDialog();
-            this.label2 = new System.Windows.Forms.Label();
             this.ExitButton = new System.Windows.Forms.Button();
             this.MessageTextBox = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // ChatTextBox
@@ -64,19 +63,6 @@
             this.SendButton.UseVisualStyleBackColor = true;
             this.SendButton.Click += new System.EventHandler(this.SendButton_Click);
             // 
-            // fontDialog1
-            // 
-            this.fontDialog1.Apply += new System.EventHandler(this.fontDialog1_Apply);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(186, 22);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "label2";
-            // 
             // ExitButton
             // 
             this.ExitButton.Location = new System.Drawing.Point(15, 12);
@@ -95,15 +81,25 @@
             this.MessageTextBox.Name = "MessageTextBox";
             this.MessageTextBox.Size = new System.Drawing.Size(178, 28);
             this.MessageTextBox.TabIndex = 7;
+            this.MessageTextBox.TextChanged += new System.EventHandler(this.MessageTextBox_TextChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(237, 17);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "label2";
             // 
             // Chat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 269);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.MessageTextBox);
             this.Controls.Add(this.ExitButton);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.SendButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ChatTextBox);
@@ -120,9 +116,8 @@
         private System.Windows.Forms.TextBox ChatTextBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button SendButton;
-        private System.Windows.Forms.FontDialog fontDialog1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button ExitButton;
         private System.Windows.Forms.TextBox MessageTextBox;
+        private System.Windows.Forms.Label label2;
     }
 }
