@@ -10,3 +10,10 @@ C:\Users\2389-20\Source\Repos\KoffeMeow\C-Sharp\ConsoleApplication1\ConsoleAppli
 C:\Users\2389-20\Source\Repos\KoffeMeow\C-Sharp\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
 C:\Users\2389-20\Source\Repos\KoffeMeow\C-Sharp\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
 C:\Users\2389-20\Source\Repos\KoffeMeow\C-Sharp\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\rde85\OneDrive\Рабочий стол\Repositories\C-Sharp\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\rde85\OneDrive\Рабочий стол\Repositories\C-Sharp\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\rde85\OneDrive\Рабочий стол\Repositories\C-Sharp\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\rde85\OneDrive\Рабочий стол\Repositories\C-Sharp\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.AssemblyReference.cache
+C:\Users\rde85\OneDrive\Рабочий стол\Repositories\C-Sharp\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.CoreCompileInputs.cache
+C:\Users\rde85\OneDrive\Рабочий стол\Repositories\C-Sharp\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\rde85\OneDrive\Рабочий стол\Repositories\C-Sharp\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

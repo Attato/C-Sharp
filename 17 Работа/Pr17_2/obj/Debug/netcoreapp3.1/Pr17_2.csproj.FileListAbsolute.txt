@@ -1,0 +1,28 @@
+C:\Users\rde85\source\repos\Pr17_2\obj\Debug\netcoreapp3.1\Pr17_2.csproj.AssemblyReference.cache
+C:\Users\rde85\source\repos\Pr17_2\obj\Debug\netcoreapp3.1\Pr17_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rde85\source\repos\Pr17_2\obj\Debug\netcoreapp3.1\Pr17_2.AssemblyInfoInputs.cache
+C:\Users\rde85\source\repos\Pr17_2\obj\Debug\netcoreapp3.1\Pr17_2.AssemblyInfo.cs
+C:\Users\rde85\source\repos\Pr17_2\obj\Debug\netcoreapp3.1\Pr17_2.csproj.CoreCompileInputs.cache
+C:\Users\rde85\source\repos\Pr17_2\bin\Debug\netcoreapp3.1\Pr17_2.exe
+C:\Users\rde85\source\repos\Pr17_2\bin\Debug\netcoreapp3.1\Pr17_2.deps.json
+C:\Users\rde85\source\repos\Pr17_2\bin\Debug\netcoreapp3.1\Pr17_2.runtimeconfig.json
+C:\Users\rde85\source\repos\Pr17_2\bin\Debug\netcoreapp3.1\Pr17_2.runtimeconfig.dev.json
+C:\Users\rde85\source\repos\Pr17_2\bin\Debug\netcoreapp3.1\Pr17_2.dll
+C:\Users\rde85\source\repos\Pr17_2\bin\Debug\netcoreapp3.1\Pr17_2.pdb
+C:\Users\rde85\source\repos\Pr17_2\obj\Debug\netcoreapp3.1\Pr17_2.dll
+C:\Users\rde85\source\repos\Pr17_2\obj\Debug\netcoreapp3.1\Pr17_2.pdb
+C:\Users\rde85\source\repos\Pr17_2\obj\Debug\netcoreapp3.1\Pr17_2.genruntimeconfig.cache
+C:\Users\rde85\OneDrive\Рабочий стол\Repositories\C-Sharp\17 Работа\Pr17_2\bin\Debug\netcoreapp3.1\Pr17_2.exe
+C:\Users\rde85\OneDrive\Рабочий стол\Repositories\C-Sharp\17 Работа\Pr17_2\bin\Debug\netcoreapp3.1\Pr17_2.deps.json
+C:\Users\rde85\OneDrive\Рабочий стол\Repositories\C-Sharp\17 Работа\Pr17_2\bin\Debug\netcoreapp3.1\Pr17_2.runtimeconfig.json
+C:\Users\rde85\OneDrive\Рабочий стол\Repositories\C-Sharp\17 Работа\Pr17_2\bin\Debug\netcoreapp3.1\Pr17_2.runtimeconfig.dev.json
+C:\Users\rde85\OneDrive\Рабочий стол\Repositories\C-Sharp\17 Работа\Pr17_2\bin\Debug\netcoreapp3.1\Pr17_2.dll
+C:\Users\rde85\OneDrive\Рабочий стол\Repositories\C-Sharp\17 Работа\Pr17_2\bin\Debug\netcoreapp3.1\Pr17_2.pdb
+C:\Users\rde85\OneDrive\Рабочий стол\Repositories\C-Sharp\17 Работа\Pr17_2\obj\Debug\netcoreapp3.1\Pr17_2.csproj.AssemblyReference.cache
+C:\Users\rde85\OneDrive\Рабочий стол\Repositories\C-Sharp\17 Работа\Pr17_2\obj\Debug\netcoreapp3.1\Pr17_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rde85\OneDrive\Рабочий стол\Repositories\C-Sharp\17 Работа\Pr17_2\obj\Debug\netcoreapp3.1\Pr17_2.AssemblyInfoInputs.cache
+C:\Users\rde85\OneDrive\Рабочий стол\Repositories\C-Sharp\17 Работа\Pr17_2\obj\Debug\netcoreapp3.1\Pr17_2.AssemblyInfo.cs
+C:\Users\rde85\OneDrive\Рабочий стол\Repositories\C-Sharp\17 Работа\Pr17_2\obj\Debug\netcoreapp3.1\Pr17_2.csproj.CoreCompileInputs.cache
+C:\Users\rde85\OneDrive\Рабочий стол\Repositories\C-Sharp\17 Работа\Pr17_2\obj\Debug\netcoreapp3.1\Pr17_2.dll
+C:\Users\rde85\OneDrive\Рабочий стол\Repositories\C-Sharp\17 Работа\Pr17_2\obj\Debug\netcoreapp3.1\Pr17_2.pdb
+C:\Users\rde85\OneDrive\Рабочий стол\Repositories\C-Sharp\17 Работа\Pr17_2\obj\Debug\netcoreapp3.1\Pr17_2.genruntimeconfig.cache

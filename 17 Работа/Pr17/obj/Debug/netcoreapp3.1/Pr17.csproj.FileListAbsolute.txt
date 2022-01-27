@@ -1,0 +1,14 @@
+C:\Users\rde85\source\repos\Pr17\obj\Debug\netcoreapp3.1\Pr17.csproj.AssemblyReference.cache
+C:\Users\rde85\source\repos\Pr17\obj\Debug\netcoreapp3.1\Pr17.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rde85\source\repos\Pr17\obj\Debug\netcoreapp3.1\Pr17.AssemblyInfoInputs.cache
+C:\Users\rde85\source\repos\Pr17\obj\Debug\netcoreapp3.1\Pr17.AssemblyInfo.cs
+C:\Users\rde85\source\repos\Pr17\obj\Debug\netcoreapp3.1\Pr17.csproj.CoreCompileInputs.cache
+C:\Users\rde85\source\repos\Pr17\bin\Debug\netcoreapp3.1\Pr17.exe
+C:\Users\rde85\source\repos\Pr17\bin\Debug\netcoreapp3.1\Pr17.deps.json
+C:\Users\rde85\source\repos\Pr17\bin\Debug\netcoreapp3.1\Pr17.runtimeconfig.json
+C:\Users\rde85\source\repos\Pr17\bin\Debug\netcoreapp3.1\Pr17.runtimeconfig.dev.json
+C:\Users\rde85\source\repos\Pr17\bin\Debug\netcoreapp3.1\Pr17.dll
+C:\Users\rde85\source\repos\Pr17\bin\Debug\netcoreapp3.1\Pr17.pdb
+C:\Users\rde85\source\repos\Pr17\obj\Debug\netcoreapp3.1\Pr17.dll
+C:\Users\rde85\source\repos\Pr17\obj\Debug\netcoreapp3.1\Pr17.pdb
+C:\Users\rde85\source\repos\Pr17\obj\Debug\netcoreapp3.1\Pr17.genruntimeconfig.cache
