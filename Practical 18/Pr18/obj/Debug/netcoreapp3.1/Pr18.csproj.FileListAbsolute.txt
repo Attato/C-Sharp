@@ -1,0 +1,14 @@
+C:\Users\rde85\source\repos\Pr18\obj\Debug\netcoreapp3.1\Pr18.csproj.AssemblyReference.cache
+C:\Users\rde85\source\repos\Pr18\obj\Debug\netcoreapp3.1\Pr18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rde85\source\repos\Pr18\obj\Debug\netcoreapp3.1\Pr18.AssemblyInfoInputs.cache
+C:\Users\rde85\source\repos\Pr18\obj\Debug\netcoreapp3.1\Pr18.AssemblyInfo.cs
+C:\Users\rde85\source\repos\Pr18\obj\Debug\netcoreapp3.1\Pr18.csproj.CoreCompileInputs.cache
+C:\Users\rde85\source\repos\Pr18\bin\Debug\netcoreapp3.1\Pr18.exe
+C:\Users\rde85\source\repos\Pr18\bin\Debug\netcoreapp3.1\Pr18.deps.json
+C:\Users\rde85\source\repos\Pr18\bin\Debug\netcoreapp3.1\Pr18.runtimeconfig.json
+C:\Users\rde85\source\repos\Pr18\bin\Debug\netcoreapp3.1\Pr18.runtimeconfig.dev.json
+C:\Users\rde85\source\repos\Pr18\bin\Debug\netcoreapp3.1\Pr18.dll
+C:\Users\rde85\source\repos\Pr18\bin\Debug\netcoreapp3.1\Pr18.pdb
+C:\Users\rde85\source\repos\Pr18\obj\Debug\netcoreapp3.1\Pr18.dll
+C:\Users\rde85\source\repos\Pr18\obj\Debug\netcoreapp3.1\Pr18.pdb
+C:\Users\rde85\source\repos\Pr18\obj\Debug\netcoreapp3.1\Pr18.genruntimeconfig.cache
