@@ -1,0 +1,14 @@
+C:\Users\rde85\source\repos\Pr16_2\bin\Debug\netcoreapp3.1\Pr16_2.exe
+C:\Users\rde85\source\repos\Pr16_2\bin\Debug\netcoreapp3.1\Pr16_2.deps.json
+C:\Users\rde85\source\repos\Pr16_2\bin\Debug\netcoreapp3.1\Pr16_2.runtimeconfig.json
+C:\Users\rde85\source\repos\Pr16_2\bin\Debug\netcoreapp3.1\Pr16_2.runtimeconfig.dev.json
+C:\Users\rde85\source\repos\Pr16_2\bin\Debug\netcoreapp3.1\Pr16_2.dll
+C:\Users\rde85\source\repos\Pr16_2\bin\Debug\netcoreapp3.1\Pr16_2.pdb
+C:\Users\rde85\source\repos\Pr16_2\obj\Debug\netcoreapp3.1\Pr16_2.csproj.AssemblyReference.cache
+C:\Users\rde85\source\repos\Pr16_2\obj\Debug\netcoreapp3.1\Pr16_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rde85\source\repos\Pr16_2\obj\Debug\netcoreapp3.1\Pr16_2.AssemblyInfoInputs.cache
+C:\Users\rde85\source\repos\Pr16_2\obj\Debug\netcoreapp3.1\Pr16_2.AssemblyInfo.cs
+C:\Users\rde85\source\repos\Pr16_2\obj\Debug\netcoreapp3.1\Pr16_2.csproj.CoreCompileInputs.cache
+C:\Users\rde85\source\repos\Pr16_2\obj\Debug\netcoreapp3.1\Pr16_2.dll
+C:\Users\rde85\source\repos\Pr16_2\obj\Debug\netcoreapp3.1\Pr16_2.pdb
+C:\Users\rde85\source\repos\Pr16_2\obj\Debug\netcoreapp3.1\Pr16_2.genruntimeconfig.cache
